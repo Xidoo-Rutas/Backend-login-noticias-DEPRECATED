@@ -9,7 +9,7 @@ const agregarclientes = async (req, res) => {
 
 const consultarclientes = async(req, res) => {
     res.json({
-        noticias: await clienteService.consultarclientes()
+        usuarios: await clienteService.consultarclientes()
     })
 }
 

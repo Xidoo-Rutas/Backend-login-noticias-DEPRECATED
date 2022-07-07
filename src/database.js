@@ -1,5 +1,5 @@
 const mongose = require('mongoose');
-const db = 'noticias'
+const db = 'usuarios'
 const dbConection = async() => {
     try {
         console.log('Esperando la conexion con el servicio mongod');

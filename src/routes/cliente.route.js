@@ -3,10 +3,10 @@ const { consultarclientes, agregarclientes, modificarcliente, eliminarcliente} =
 const router = Router();
 
 
-router.get('/api/noticias', consultarclientes);
-router.post('/api/noticias/registro', agregarclientes);
-router.put('/api/noticias/modificar', modificarcliente);
-router.delete('/api/noticias/eliminar/:id', eliminarcliente);
+router.get('/api/usuarios', consultarclientes);
+router.post('/api/usuarios/registro', agregarclientes);
+router.put('/api/usuarios/modificar', modificarcliente);
+router.delete('/api/usuarios/eliminar/:id', eliminarcliente);
 
 
 

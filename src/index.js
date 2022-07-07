@@ -5,7 +5,7 @@ async function main(){
         //conectarse a db
         await dbConection();
         //iniico sv
-        await app.listen(5000);
+        await app.listen(5001);
 }
 
 main();
